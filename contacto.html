@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Contactanos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Francisco Aguilera G. - http://franciscoamk.com">
+	
+	<link rel="stylesheet" href="style.css" >
+	
+</head>
+
+<body>
+	
+	<section id="main-header" class="container cf">
+		
+		<a class="logo-header" href="index.html" title="Inicio">
+			<span class="logo"><img src="img/logo.png" alt="logo" width="306" height="37"></span>
+			<span class="slogan">English for all</span>
+		</a><!-- /#logo-header -->
+		
+		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+		
+		<nav id="main-menu" role="navigation" class="closed">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="preguntas frecuentes.html">Preguntas Frecuentes</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav><!-- /#main-menu -->
+		
+	</section><!-- /#main-header -->
+	
+	<main id="content-area">
+	
+		<article class="single-page">
+			
+			
+			<header class="page-header">
+				<div class="container">
+					
+					<h1>Contacto</h1>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut massa non ipsum<br />
+					fermentum rhoncus non vel neque. Phasellus varius feugiat purus vel sodales. </p>
+				
+				</div>
+			</header><!-- /.page-header -->
+			
+			
+			
+			<div class="container page-content">
+			
+				<form action="enviar.php" method="post">
+					
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" placeholder="¿Cómo te llamas?" required />
+					
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email" placeholder="¿A dónde debería responderte?" required />
+					
+					<label for="asunto">Asunto:</label>
+					<input type="text" id="asunto" name="asunto" placeholder="¿Como quieres que sean las clases?" required />
+					
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" rows="8" placeholder="Aqui puedes hablar un poco sobre ti" required ></textarea>
+					
+					<input type="submit" value="Enviar mensaje" class="btn" />
+				
+				</form>
+			
+			</div><!-- /.content -->
+			
+		</article><!-- /#single-page -->
+	</main><!-- /#content-area -->
+	
+	
+	<footer id="main-footer">
+		
+		
+		<div id="bottom-footer" class="container cf">
+			
+			<div class="copyright">
+				&copy; 2022 Derechos reservados a <a href="index.html">Focus & Learn</a>
+			</div><!-- /.copyright -->
+			
+			<nav id="footer-menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="preguntas frecuentes.html">Preguntas Frecuentes</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav><!-- /#footer-menu -->
+			
+		</div><!-- /#bottom-footer -->
+		
+	</footer><!-- /#main-footer -->
+
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/rem.min.js"></script>
+	<script src="js/functions.js"></script>
+	
+</body>
+</html>
